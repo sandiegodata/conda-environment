@@ -19,3 +19,10 @@ The resulting files are written into the ``build`` directory
 
 Add new conda packages to ``requirements/conda-minimal.yaml`` and new pip packages
 to ``requirements/requirements.txt``
+
+
+# Installing an environment
+
+When installing an environment, you should set your own name
+
+    conda env create -f build/conda-Darwin.yaml -n <env_name>
