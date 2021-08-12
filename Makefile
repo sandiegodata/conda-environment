@@ -8,8 +8,6 @@ NAME = env_builder
 INSTANCE = default
 DOCKER ?= docker
 VOLUMES = -v $(shell pwd)/..:/opt/notebooks 
-PORTS = -p 9888:9888 --expose 9888
-
 IMAGE_NAME = $(NS)/$(REPO):$(VERSION) 
 
 
